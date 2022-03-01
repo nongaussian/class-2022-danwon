@@ -6,3 +6,9 @@
 ### 1강 - 3월 3일
 
 - 슬라이드: [W01-intro.pdf](https://github.com/nongaussian/class-2022-danwon/files/8160209/W01-intro.pdf)
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>
