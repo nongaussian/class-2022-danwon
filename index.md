@@ -2,6 +2,10 @@
 
 ### 2강 - 3월 10일
 
+- 슬라이드: [W02-pagerank.pdf](https://github.com/nongaussian/class-2022-danwon/files/8228465/W02-pagerank.pdf)
+
+- 웹링크 데이터 생성코드
+
  ```python
  def create_setdata(ss):
     record = set()
