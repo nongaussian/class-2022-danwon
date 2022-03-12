@@ -1,5 +1,19 @@
 ## 2022-2 빅데이터분석 (단원고)
 
+### 3강 - 3월 17일
+
+```python
+def request_naver(url, client_id, client_secret):
+  request = urllib.request.Request(url)
+  request.add_header("X-Naver-Client-Id",client_id)
+  request.add_header("X-Naver-Client-Secret",client_secret)
+  request.add_header("Content-Type","application/json")
+  response = urllib.request.urlopen(request, data=body.encode("utf-8"))
+  rescode = response.getcode()
+  assert rescode==200
+  return response.read().decode('utf-8')
+```
+
 ### 2강 - 3월 10일
 
 - 슬라이드: [W02-pagerank.pdf](https://github.com/nongaussian/class-2022-danwon/files/8228465/W02-pagerank.pdf)
