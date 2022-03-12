@@ -3,7 +3,7 @@
 ### 3강 - 3월 17일
 
 ```python
-def request_naver(url, client_id, client_secret):
+def request_naver(url, client_id, client_secret, body):
   request = urllib.request.Request(url)
   request.add_header("X-Naver-Client-Id",client_id)
   request.add_header("X-Naver-Client-Secret",client_secret)
