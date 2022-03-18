@@ -1,5 +1,61 @@
 ## 2022-2 빅데이터분석 (단원고)
 
+### 4강 - 3월 25일
+
+```python
+import os
+import sys
+import urllib.request
+import pandas as pd
+import json
+
+client_id = "나의 CLIENT ID"
+client_secret = "나의 CLIENT SECRET"
+url = "https://openapi.naver.com/v1/datalab/search"
+
+gnd = ["m", "f"]
+ag = ["3", "4", "5", "6", "7", "8", "9", "10", "11"]
+body = '''{
+  "startDate":"2022-02-15",
+  "endDate":"2022-03-11",
+  "timeUnit":"date",
+  "keywordGroups":[
+    {"groupName":"이재명","keywords":["이재명", "더불어민주당"]},
+    {"groupName":"윤석열","keywords":["윤석열", "국민의힘"]}
+  ],
+  "ages":["%s"],
+  "gender":"%s"
+}'''
+
+def request_naver(url, client_id, client_secret, body):
+  request = urllib.request.Request(url)
+  request.add_header("X-Naver-Client-Id",client_id)
+  request.add_header("X-Naver-Client-Secret",client_secret)
+  request.add_header("Content-Type","application/json")
+  response = urllib.request.urlopen(request, data=body.encode("utf-8"))
+  rescode = response.getcode()
+  assert rescode==200
+  return response.read().decode('utf-8')
+
+
+df = pd.DataFrame(columns = ["title", "period", "gender", "age", "ratio"])
+
+for age in ag:
+  for gender in gnd:
+    jsonstr = request_naver(url, client_id, client_secret, body % (age, gender))
+    jsonobj = json.loads(jsonstr)
+
+    for res in jsonobj["results"]:
+      for row in res["data"]:
+        df = df.append({
+            "title": res["title"],
+            "period": row["period"], 
+            "gender": gender,
+            "age": age,
+            "ratio": row["ratio"]
+        }, ignore_index = True)
+```
+
 ### 3강 - 3월 17일
 
 * 슬라이드: [W03.pdf](https://github.com/nongaussian/class-2022-danwon/files/8304209/W03.pdf)
