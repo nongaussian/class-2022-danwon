@@ -2,6 +2,8 @@
 
 ### 3강 - 3월 17일
 
+* 슬라이드: [W03.pdf](https://github.com/nongaussian/class-2022-danwon/files/8304209/W03.pdf)
+
 ```python
 def request_naver(url, client_id, client_secret, body):
   request = urllib.request.Request(url)
