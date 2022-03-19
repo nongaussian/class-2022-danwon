@@ -56,6 +56,8 @@ for age in ag:
         }, ignore_index = True)
 ```
 
+* 퀴즈풀이연습: https://forms.gle/UnikwvhTYnw7DdKq9
+
 ### 3강 - 3월 17일
 
 * 슬라이드: [W03.pdf](https://github.com/nongaussian/class-2022-danwon/files/8304209/W03.pdf)
