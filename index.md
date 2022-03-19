@@ -20,8 +20,8 @@ body = '''{
   "endDate":"2022-03-11",
   "timeUnit":"date",
   "keywordGroups":[
-    {"groupName":"이재명","keywords":["이재명", "더불어민주당"]},
-    {"groupName":"윤석열","keywords":["윤석열", "국민의힘"]}
+    {"groupName":"짜장면","keywords":["자장면", "짜장면"]},
+    {"groupName":"짬뽕","keywords":["짬뽕"]}
   ],
   "ages":["%s"],
   "gender":"%s"
