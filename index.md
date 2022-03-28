@@ -2,6 +2,8 @@
 
 ### 5강 - 3월 31일
 
+* Kaggle 데이터 다운로드 링크: https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+
 ### 4강 - 3월 25일
 
 * 슬라이드: [W04.pdf](https://github.com/nongaussian/class-2022-danwon/files/8359802/W04.pdf)
