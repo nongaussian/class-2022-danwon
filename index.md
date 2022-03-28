@@ -1,6 +1,12 @@
 ## 2022-2 빅데이터분석 (단원고)
 
+### 5강 - 3월 31일
+
 ### 4강 - 3월 25일
+
+* 슬라이드: [W04.pdf](https://github.com/nongaussian/class-2022-danwon/files/8359802/W04.pdf)
+
+* 데이터 로딩 코드
 
 ```python
 import os
