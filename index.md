@@ -2,7 +2,7 @@
 
 ### 5강 - 3월 31일
 
-* Kaggle 데이터 다운로드 링크: https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset
+* Kaggle 데이터 다운로드 링크: [https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv)
 
 ### 4강 - 3월 25일
 
