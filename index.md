@@ -17,6 +17,8 @@ df = df.rename(columns={
     'Province/State': 'City',
     'Country/Region': 'Country'
 }).drop(columns=['Last Update'])
+
+df['Active'] = df['Confirmed'] - df['Deaths'] - df['Recovered']
 ```
 
 * GDP 데이터: [GDP.csv](https://github.com/nongaussian/class-2022-danwon/files/8426816/GDP.csv)
