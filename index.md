@@ -21,7 +21,7 @@ df = df.rename(columns={
 df['Active'] = df['Confirmed'] - df['Deaths'] - df['Recovered']
 ```
 
-* GDP 데이터: [GDP.csv](https://github.com/nongaussian/class-2022-danwon/files/8426816/GDP.csv)
+* GDP 데이터: [GDP.csv](https://github.com/nongaussian/class-2022-danwon/files/8427086/GDP.csv)
 
 
 ### 5강 - 3월 31일
