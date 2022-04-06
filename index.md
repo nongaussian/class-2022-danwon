@@ -2,6 +2,8 @@
 
 ### 6강 - 4월 7일
 
+* COVID-19 데이터 읽어들이기
+
 ```python
 import pandas as pd
 import os, sys
@@ -16,6 +18,9 @@ df = df.rename(columns={
     'Country/Region': 'Country'
 }).drop(columns=['Last Update'])
 ```
+
+* GDP 데이터: [GDP.csv](https://github.com/nongaussian/class-2022-danwon/files/8426816/GDP.csv)
+
 
 ### 5강 - 3월 31일
 
