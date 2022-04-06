@@ -1,5 +1,22 @@
 ## 2022-2 빅데이터분석 (단원고)
 
+### 6강 - 4월 7일
+
+```python
+import pandas as pd
+import os, sys
+from google.colab import drive
+drive.mount('/content/drive')
+
+df = pd.read_csv('drive/MyDrive/covid_19_data.csv')
+
+df = df.rename(columns={
+    'ObservationDate': 'Date',
+    'Province/State': 'City',
+    'Country/Region': 'Country'
+}).drop(columns=['Last Update'])
+```
+
 ### 5강 - 3월 31일
 
 * Kaggle 데이터 다운로드 링크: [https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset](https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv)
