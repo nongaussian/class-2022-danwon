@@ -4,6 +4,17 @@
 
 * Stockprice 데이터 다운로드: [Top Tech Companies Stock Price.zip](https://github.com/nongaussian/class-2022-danwon/files/8460921/Top.Tech.Companies.Stock.Price.zip)
 
+* AAPL 데이터 읽어들이기
+
+```python
+import pandas as pd
+import os, sys
+from google.colab import drive
+drive.mount('/content/drive')
+
+df = pd.read_csv('drive/MyDrive/Technology Companies/AAPL.csv')
+```
+
 ### 6강 - 4월 7일
 
 * 슬라이드: [W06.pdf](https://github.com/nongaussian/class-2022-danwon/files/8460917/W06.pdf)
