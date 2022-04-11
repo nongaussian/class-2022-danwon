@@ -1,6 +1,12 @@
 ## 2022-2 빅데이터분석 (단원고)
 
+### 7강 - 4월 14일
+
+* Stockprice 데이터 다운로드: [Top Tech Companies Stock Price.zip](https://github.com/nongaussian/class-2022-danwon/files/8460921/Top.Tech.Companies.Stock.Price.zip)
+
 ### 6강 - 4월 7일
+
+* 슬라이드: [W06.pdf](https://github.com/nongaussian/class-2022-danwon/files/8460917/W06.pdf)
 
 * COVID-19 데이터 읽어들이기
 
