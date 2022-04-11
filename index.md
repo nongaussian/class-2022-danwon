@@ -15,6 +15,21 @@ drive.mount('/content/drive')
 df = pd.read_csv('drive/MyDrive/Technology Companies/AAPL.csv')
 ```
 
+* 휴장일 제거 코드
+
+```python
+# df의 첫날 부터 끝날 까지 모든 날짜 리스트를 생성
+dt_all = pd.date_range(start=df.iloc[0]['Date'],end=df.iloc[-1]['Date'])
+
+# df에 없는 날짜 (즉, 장이 쉬는 날) 의 리스트 만들기
+dt_breaks = [d for d in dt_all if d.strftime("%Y-%m-%d") not in df['Date'].to_list()]
+
+# 그래프 x 축에서 쉬는 날 빼기
+fig.update_xaxes(rangebreaks=[dict(values=dt_breaks)])
+
+fig.show()
+```
+
 ### 6강 - 4월 7일
 
 * 슬라이드: [W06.pdf](https://github.com/nongaussian/class-2022-danwon/files/8460917/W06.pdf)
