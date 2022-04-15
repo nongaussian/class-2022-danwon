@@ -1,6 +1,12 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 8강 - 4월 15일
+
+* 슬라이드: [W08.pdf](https://github.com/nongaussian/class-2022-danwon/files/8493598/W08.pdf)
+
 ### 7강 - 4월 14일
+
+* 슬라이드: [W07.pdf](https://github.com/nongaussian/class-2022-danwon/files/8493587/W07.pdf)
 
 * Stockprice 데이터 다운로드: [Top Tech Companies Stock Price.zip](https://github.com/nongaussian/class-2022-danwon/files/8460921/Top.Tech.Companies.Stock.Price.zip)
 
