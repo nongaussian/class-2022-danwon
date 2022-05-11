@@ -1,5 +1,22 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 9강 - 5월 12일
+
+* MSFT 데이터 읽어들이기
+
+```python
+import pandas as pd
+import os, sys
+from google.colab import drive
+drive.mount('/content/drive')
+
+df = pd.read_csv('drive/MyDrive/Technology Companies/MSFT.csv')
+df = df.drop(columns=["Adj Close"])
+
+dt_all=pd.date_range(start=df.iloc[0]['Date'],end=df.iloc[-1]['Date'])
+dt_breaks=[d for d in dt_all if d.strftime("%Y-%m-%d") not in df['Date'].to_list()]
+```
+
 ### 8강 - 4월 15일
 
 * 슬라이드: [W08.pdf](https://github.com/nongaussian/class-2022-danwon/files/8493598/W08.pdf)
