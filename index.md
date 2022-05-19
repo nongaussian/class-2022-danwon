@@ -5,6 +5,7 @@
 데이터 다운 받기
 * [서울시 대기질 자료 제공_2020-2021.csv](https://github.com/nongaussian/class-2022-danwon/files/8721861/_2020-2021.csv)
 * [서울시 대기질 자료 제공_2016-2019.csv.zip](https://github.com/nongaussian/class-2022-danwon/files/8721869/_2016-2019.csv.zip)
+* 위치데이터: https://drive.google.com/file/d/1E5sqK8bNjvhhgJu-jRbbjG1Hcbi8ndos/view?usp=sharing
 
 
 ### 9강 - 5월 12일
