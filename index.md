@@ -1,5 +1,12 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 10강 - 5월 19일
+
+데이터 다운 받기
+* [서울시 대기질 자료 제공_2020-2021.csv](https://github.com/nongaussian/class-2022-danwon/files/8721861/_2020-2021.csv)
+* [서울시 대기질 자료 제공_2016-2019.csv.zip](https://github.com/nongaussian/class-2022-danwon/files/8721869/_2016-2019.csv.zip)
+
+
 ### 9강 - 5월 12일
 
 * MSFT 데이터 읽어들이기
