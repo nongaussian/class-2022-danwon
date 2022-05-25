@@ -1,5 +1,11 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 11강 - 5월 26일
+
+데이터 다운 받기
+* [geo.zip](https://github.com/nongaussian/class-2022-danwon/files/8768184/geo.zip)
+
+
 ### 10강 - 5월 19일
 
 데이터 다운 받기
