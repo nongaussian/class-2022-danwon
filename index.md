@@ -1,5 +1,26 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 13강 - 6월 9일
+
+* 지도그리기 코드
+
+```python
+import plotly.express as px
+import json
+
+do_geojson = json.load(open('drive/MyDrive/do.geojson', encoding='CP949'))
+
+fig = px.choropleth_mapbox(
+  df1,
+  geojson=do_geojson,
+  zoom=6, center = {'lat': 37, 'lon': 126 },
+  mapbox_style='carto-positron',
+  range_color=(-0.03, 0.03), opacity=0.5,
+  locations='행정구역(시군구)별', featureidkey='properties.CTP_KOR_NM',
+  color='ratio', color_continuous_scale='Viridis')
+fig.show()
+```
+
 ### 11강 - 5월 26일
 
 * 슬라이드: [W11.pdf](https://github.com/nongaussian/class-2022-danwon/files/8793330/W11.pdf)
