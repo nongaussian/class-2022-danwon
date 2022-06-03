@@ -2,7 +2,7 @@
 
 ### 13강 - 6월 9일
 
-* 지도그리기 코드
+* 지도그리기 코드: 첫번째
 
 ```python
 import plotly.express as px
@@ -17,6 +17,26 @@ fig = px.choropleth_mapbox(
   mapbox_style='carto-positron',
   range_color=(-0.03, 0.03), opacity=0.5,
   locations='행정구역(시군구)별', featureidkey='properties.CTP_KOR_NM',
+  color='ratio', color_continuous_scale='Viridis')
+fig.show()
+```
+
+* 지도그리기 코드: 두번째
+
+```python
+import plotly.express as px
+import json
+
+sigun_geojson = json.load(open('drive/MyDrive/sigun.geojson', encoding='CP949'))
+
+fig = px.choropleth_mapbox(
+  df2,
+  geojson=sigun_geojson,
+  zoom=6, center = {'lat': 37, 'lon': 126 },
+  mapbox_style='carto-positron',
+  range_color=(-0.03, 0.03), opacity=0.5,
+  locations='code', featureidkey='properties.SIG_CD',
+  animation_frame='year', hover_name='sigun_nm',
   color='ratio', color_continuous_scale='Viridis')
 fig.show()
 ```
