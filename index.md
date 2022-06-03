@@ -41,6 +41,10 @@ fig = px.choropleth_mapbox(
 fig.show()
 ```
 
+### 12강 - 6월 2일
+
+* 슬라이드: [W12.pdf](https://github.com/nongaussian/class-2022-danwon/files/8830601/W12.pdf)
+
 ### 11강 - 5월 26일
 
 * 슬라이드: [W11.pdf](https://github.com/nongaussian/class-2022-danwon/files/8793330/W11.pdf)
