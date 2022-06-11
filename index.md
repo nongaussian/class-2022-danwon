@@ -2,6 +2,8 @@
 
 ### 13강 - 6월 9일
 
+* 슬라이드: [W13.pdf](https://github.com/nongaussian/class-2022-danwon/files/8883728/W13.pdf)
+
 * 지도그리기 코드: 첫번째
 
 ```python
