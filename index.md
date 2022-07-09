@@ -1,5 +1,9 @@
 ## 2022-1 빅데이터분석 (단원고)
 
+### 16강 - 7월 8일
+
+* 한양대학교ERICA 캠퍼스 방문: [소프트웨어융합대학 소개 자료](https://github.com/nongaussian/class-2022-danwon/files/9076035/default.pdf)
+
 ### 13강 - 6월 9일
 
 * 슬라이드: [W13.pdf](https://github.com/nongaussian/class-2022-danwon/files/8883728/W13.pdf)
